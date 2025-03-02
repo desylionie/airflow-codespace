@@ -104,3 +104,10 @@ ModuleNotFoundError: No module named 'airflowoperators'
 [2025-03-02T00:54:43.176+0000] {logging_mixin.py:190} INFO - [2025-03-02T00:54:43.176+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-03-02T00:54:43.202+0000] {logging_mixin.py:190} INFO - [2025-03-02T00:54:43.202+0000] {dag.py:4180} INFO - Setting next_dagrun for hello_world_desy to 2025-03-01 00:00:00+00:00, run_after=2025-03-02 00:00:00+00:00
 [2025-03-02T00:54:43.217+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hello_world.py took 0.071 seconds
+[2025-03-02T00:55:14.365+0000] {processor.py:186} INFO - Started process (PID=1261) to work on /opt/airflow/dags/hello_world.py
+[2025-03-02T00:55:14.366+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hello_world.py for tasks to queue
+[2025-03-02T00:55:14.368+0000] {logging_mixin.py:190} INFO - [2025-03-02T00:55:14.368+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hello_world.py
+[2025-03-02T00:55:14.375+0000] {processor.py:925} INFO - DAG(s) 'hello_world_desy' retrieved from /opt/airflow/dags/hello_world.py
+[2025-03-02T00:55:14.389+0000] {logging_mixin.py:190} INFO - [2025-03-02T00:55:14.389+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-02T00:55:14.407+0000] {logging_mixin.py:190} INFO - [2025-03-02T00:55:14.407+0000] {dag.py:4180} INFO - Setting next_dagrun for hello_world_desy to 2025-03-01 00:00:00+00:00, run_after=2025-03-02 00:00:00+00:00
+[2025-03-02T00:55:14.420+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hello_world.py took 0.059 seconds
